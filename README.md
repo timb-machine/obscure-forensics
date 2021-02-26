@@ -98,7 +98,7 @@
 
 * Capture the most likely admin modified files (this will be big)
 
-```tar cvf admin-modified.tar.gz /etc /var /opt /usr/local /home```
+```tar cvf admin-modified.tar.gz /etc /var /opt /usr/local /home /tmp```
 
 * Kernel debugger
 
