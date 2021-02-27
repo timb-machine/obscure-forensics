@@ -120,7 +120,7 @@
 
 ```mksysb -i <filename>```
 
-* Clone a partition to file (this is not generally advised for the root partition, unless you're planning to analyse it offline rather than bring it up elsewhere due to it creating an *exact* copy of the vulme, ODM and all)
+* Clone a partition to file (this is not generally advised for the root partition, unless you're planning to analyse it offline rather than bring it up elsewhere due to it creating an *exact* copy of the volume, ODM and all)
 
 ```dd if=<device path> of=<filename>```
 
