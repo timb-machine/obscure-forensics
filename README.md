@@ -130,7 +130,7 @@ https://www.ibm.com/support/knowledgecenter/ssw_aix_72/devicemanagement/logvolst
 
 * Migrate an LPAR outright
 
-https://www.ibm.com/support/pages/live-partition-mobility is worth a read.
+https://www.ibm.com/support/pages/live-partition-mobility
 
 ## z/OS
 
