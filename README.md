@@ -1,5 +1,7 @@
 # obscure-forensics
 
+Note: Techniques documented here may not be foresically sound from a evidence standpoint. Please consult with trained forensic consultants if your intention is to recover digital evidence as part of constructing a case that will be persued in a court of law or where the intention is to persue civil proceedings.[
+
 # SAP
 
 ## ECC
