@@ -146,10 +146,20 @@ https://www.ibm.com/support/pages/live-partition-mobility
 
 ## Cisco
 
-### Cisco IOS
+* https://blogs.cisco.com/security/new-forensic-investigation-procedures-for-first-responder-guides
+* https://tools.cisco.com/security/center/tacticalresources.x
 
-### Cisco ASA
+### IOS
+
+* https://tools.cisco.com/security/center/resources/forensic_guides/iosxe_forensic_guide.html
+* https://tools.cisco.com/security/center/resources/forensic_guides/ios_forensic_investigation.html
+
+### ASA
+
+* https://tools.cisco.com/security/center/resources/forensic_guides/asa_forensic_investigation.html
 
 ### FTDs
+
+* https://tools.cisco.com/security/center/resources/forensic_guides/ftd_forensic_investigation.html
 
 ### Webex
