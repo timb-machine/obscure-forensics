@@ -22,6 +22,10 @@ Note: Techniques documented here may not be forensically sound from a legal stan
 
 ```lslpp -Lc```
 
+* Display fast fail log
+
+```fcstkrpt -a```
+
 * Display crash log
 
 ```errpt -a```
@@ -32,7 +36,7 @@ Note: Techniques documented here may not be forensically sound from a legal stan
 
 * Grab the logs
 
-```tar cvf logs.tar.gz /var/log```
+```tar cvf logs.tar.gz /var/log /var/adm```
 
 * Dump the running memory (requires a reboot)
 
@@ -133,6 +137,10 @@ https://www.ibm.com/support/knowledgecenter/ssw_aix_72/devicemanagement/logvolst
 * Migrate an LPAR outright
 
 https://www.ibm.com/support/pages/live-partition-mobility
+
+* List any WPARs
+
+```lswpar``
 
 ## z/OS
 
