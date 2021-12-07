@@ -140,7 +140,7 @@ https://www.ibm.com/support/pages/live-partition-mobility
 
 * List any WPARs
 
-```lswpar``
+```lswpar```
 
 ## z/OS
 
