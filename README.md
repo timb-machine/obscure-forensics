@@ -173,3 +173,49 @@ https://www.ibm.com/support/pages/live-partition-mobility
 * https://tools.cisco.com/security/center/resources/forensic_guides/ftd_forensic_investigation.html
 
 ### Webex
+
+### ISE
+
+* Compare current and old src
+
+```index="cisco_ise" | stats count by src```
+
+* Compare current and old users
+
+```index="cisco_ise" | stats count by user```
+
+* Examine authentication failures
+
+```index="cisco_ise" | where like(description, "%Authentication failed%")```
+
+* Review commands
+
+```index="cisco_ise" | where like(description, "%Command%") | table CmdSet```
+
+* Look for user changes
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%user%") or like(CmdSet, "%pass%") or like(CmdSet, "%login%") or like(CmdSet, "%level%"))```
+
+* Look for outbound network commands
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%snmp%") or like(CmdSet, "%ftp%") or like(CmdSet, "%ssh%"))```
+
+* Look for route changing commands
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%route%"))```
+
+* Look for packet dumping commands
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%tcpdump%") or like(CmdSet, "%monitor%"))```
+
+* Look for privileged commands
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%sudo%") or like(CmdSet, "%shadow%"))```
+
+* Look for device reboot/restart commands
+
+```index="cisco_ise" | where like(description, "%Command%") and (like(CmdSet, "%reboot%") or like(CmdSet, "%shutdown%") or like(CmdSet, "%restart%"))```
+
+* Review TACACS errors
+
+```index="cisco_ise" | where like(description, "%malformed%")```
