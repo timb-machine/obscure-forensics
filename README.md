@@ -1,5 +1,11 @@
 # obscure-forensics
 
+![](https://img.shields.io/github/last-commit/timb-machine/obscure-forensics?style=for-the-badge)
+
+[Rolling 7 day view of updates from this repo](https://github.com/timb-machine/obscure-forensics/compare/main@%7B7day%7D...main)
+
+[Submissions?](https://github.com/timb-machine/obscure-forensics/blob/main/doc/HACKING)
+
 Note: Techniques documented here may not be forensically sound from a legal standpoint. Please consult with trained forensic consultants if your intention is to recover digital evidence as part of constructing a case that will be persued in a court of law or where the intention is to persue civil proceedings.
 
 # SAP
